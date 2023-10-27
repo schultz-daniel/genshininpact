@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oxanium:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="Logo">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="hutao" data-name="hutao" data-description="Hu Tao é a 77ª diretora da Casa Funerária de Wangsheng, que na região de Liyue. Ela é uma figura misteriosa que guarda a fronteira entre a vida e a morte.">
+                    <img src="./src/imagens/card-hutao.jpg" alt="Hu Tao">
+                </li>
+                <li class="personagem" id="xiao" data-name="xiao" data-description="Xiao pode ter a aparência de um jovem, porém sua verdade idade é algo acima de 2 mil anos. Com sorte, as pessoas não costumam subestimar ele por causa de sua aparência – basta passar um pouco de tempo com Xiao para compreender que ele não é algo para você mexer.">
+                    <img src="./src/imagens/card-xiao.jpg" alt="Xiao">
+                </li>
+                <li class="personagem" id="yelan" data-name="yelan" data-description="A história de sua família remonta a uma era antiga, e seus antepassados lutaram no Despenhadeiro contra uma grande calamidade.">
+                    <img src="./src/imagens/card-yelan.jpg" alt="Yelan">
+                </li>
+                <li class="personagem" id="zhongli" data-name="Zhongli" data-description="Zhongli pode ser considerada uma pessoa de mente aberta com base em como ele convidou Xinyan para fazer seu show de rock na época em que o rock não era muito conhecido e amplamente aceito em Liyue.">
+                    <img src="./src/imagens/card-zhongli.jpg" alt="Zhongli">
+                </li>
+                <li class="personagem" id="klee" data-name="Klee" data-description="Klee é uma garota energética e extrovertida, com Jean comentando que ela se parece com sua mãe, Alice. Ela age como uma típica jovem - cheia de energia que adora brincar com os amigos.">
+                    <img src="./src/imagens/card-klee.jpg" alt="Klee">
+                </li>
+                <li class="personagem" id="jean" data-name="Jean" data-description="Jean foi criada por sua mãe como sucessora do Clã Gunnhildr. Jean foi ensinada e treinada em tudo o que uma cavaleira deveria conhecer e saber, desde disciplina, etiqueta, conduta, conhecimento de história e contos, até esgrima e aptidão física.">
+                    <img src="./src/imagens/card-jean.jpg" alt="Jean">
+                </li>
+                <li class="personagem" id="razor"
+                data-name="Razor" data-description="Razor é um garoto cuja identidade está envolta em mistério. Ele mora no Reino dos Lobos e raramente é visto pelos habitantes de Mondstadt.">
+                    <img src="./src/imagens/card-razor.jpg" alt="Razor">
+                </li>
+                <li class="personagem" id="kaeya" data-name="Kaeya" data-description="Kaeya é uma pessoa confiante e charmosa, quase dramática, e às vezes vista como excessivamente descontraída. Ele parece gostar de contar mentiras descaradas, mas essa tendência se torna um talento quando se trata de seu papel como o cérebro dos Cavaleiros de Favonius.">
+                    <img src="./src/imagens/card-kaeya.jpg" alt="Kaeya">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-hutao.png" alt="Hu Tao">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Hu Tao</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Hu Tao é a 77ª diretora da Casa Funerária de Wangsheng, que na região de Liyue. Ela é uma figura misteriosa que guarda a fronteira entre a vida e a morte.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
